@@ -1,0 +1,21 @@
+{
+    "name": "duxet/flysystem-b2",
+    "description": "Backblaze B2 adapter for Flysystem",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "duxet",
+            "email": "duxetlg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "duxet\\Flysystem\\BackblazeB2": "src"
+        }
+    },
+    "require": {
+        "cwhite92/b2-sdk-php": "^1.1",
+        "league/flysystem": "^1.0"
+    }
+}
